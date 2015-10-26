@@ -12,6 +12,14 @@ TIMEZONE = 'US/Pacific'
 
 DEFAULT_LANG = u'en'
 
+# Site customization
+THEME = u'/Users/mandaris/Projects/TuftePelican'
+DEBUG = 'TRUE'
+
+# URLs
+ARTICLE_URL = '{date:%Y}/{date:%m}/{slug}.html'
+ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{slug}.html'
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
