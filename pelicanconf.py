@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Mandaris'
 SITENAME = u'Quotidian Quest'
-SITEURL = ''
+SITEURL = 'http://quotidianquest.com'
 
 PATH = 'content'
 
@@ -40,4 +40,9 @@ SOCIAL = (('You can add links in your config file', '#'),
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
+
+# Include plugins
+PLUGIN_PATHS = ['/Users/mandaris/Projects/pelican-plugins']
+PLUGINS = ['liquid_tags.tufte', 'liquid_tags.img']
+
