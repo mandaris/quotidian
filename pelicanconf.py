@@ -15,6 +15,8 @@ DEFAULT_LANG = u'en'
 # Site customization
 THEME = u'/Users/mandaris/Projects/TuftePelican'
 DEBUG = 'TRUE'
+STATIC_PATHS = ['images', 'extra', 'code']
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
 
 # URLs
 ARTICLE_URL = '{date:%Y}/{date:%m}/{slug}.html'
