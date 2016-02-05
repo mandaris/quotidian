@@ -46,5 +46,5 @@ RELATIVE_URLS = True
 
 # Include plugins
 PLUGIN_PATHS = ['/Users/mandaris/Projects/pelican-plugins']
-PLUGINS = ['liquid_tags.tufte', 'liquid_tags.img']
+PLUGINS = ['liquid_tags.tufte']
 
