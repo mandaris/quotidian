@@ -11,6 +11,7 @@ PATH = 'content'
 TIMEZONE = 'US/Pacific'
 
 DEFAULT_LANG = u'en'
+LOCALE = u'en_US.UTF-8'
 
 # Site customization
 THEME = u'/Users/mandaris/Projects/TuftePelican'
@@ -24,6 +25,7 @@ ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{slug}.html'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
+FEED_ATOM = 'feeds/atom.xml'
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
@@ -46,5 +48,9 @@ RELATIVE_URLS = True
 
 # Include plugins
 PLUGIN_PATHS = ['/Users/mandaris/Projects/pelican-plugins']
-PLUGINS = ['liquid_tags.tufte']
+PLUGINS = ['liquid_tags.tufte', 'liquid_tags.img']
+
+# Other variables need
+SITE_DESCRIPTION = 'The personal website for Mandaris Moore.'
+OPEN_GRAPH = True
 
