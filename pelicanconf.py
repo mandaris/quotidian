@@ -17,7 +17,10 @@ LOCALE = u'en_US'
 THEME = u'/Users/mandaris/Projects/TuftePelican'
 DEBUG = 'TRUE'
 STATIC_PATHS = ['images', 'extra', 'code']
-EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},
+                       'extra/favicon.ico': {'path': 'favicon.ico'},
+                       'extra/favicon.svg': {'path': 'favicon.svg'},
+                       'extra/apple-touch-icon.png': {'path': 'apple-touch-icon.png'},}
 
 # URLs
 ARTICLE_URL = '{date:%Y}/{date:%m}/{slug}.html'
