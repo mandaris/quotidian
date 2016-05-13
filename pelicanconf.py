@@ -11,7 +11,7 @@ PATH = 'content'
 TIMEZONE = 'US/Pacific'
 
 DEFAULT_LANG = u'en'
-LOCALE = u'en_US.UTF-8'
+LOCALE = u'en_US'
 
 # Site customization
 THEME = u'/Users/mandaris/Projects/TuftePelican'
@@ -48,9 +48,10 @@ RELATIVE_URLS = True
 
 # Include plugins
 PLUGIN_PATHS = ['/Users/mandaris/Projects/pelican-plugins']
-PLUGINS = ['liquid_tags.tufte', 'liquid_tags.img']
+PLUGINS = ['liquid_tags.tufte', 'pelican-open_graph', 'liquid_tags.img']
 
 # Other variables need
 SITE_DESCRIPTION = 'The personal website for Mandaris Moore.'
 OPEN_GRAPH = True
+LOAD_CONTENT_CACHE = False 
 
