@@ -15,7 +15,7 @@ LOCALE = u'en_US'
 DEFAULT_PAGINATION = 10
 
 # Site customization
-THEME = u'/Users/mandaris/Projects/TuftePelican'
+THEME = u'../../Projects/TuftePelican' #Change to needed
 DISPLAY_PAGES_ON_MENU = True
 STATIC_PATHS = ['images', 'extra', 'code']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},
@@ -37,7 +37,7 @@ AUTHOR_FEED_RSS = None
 
 
 # Include plugins
-PLUGIN_PATHS = ['/Users/mandaris/Projects/pelican-plugins']
+PLUGIN_PATHS = ['../../Projects/pelican-plugins']
 PLUGINS = ['liquid_tags.tufte', 'pelican-open_graph', 'liquid_tags.img', 'plantuml']
 
 # Markdown Plugins
