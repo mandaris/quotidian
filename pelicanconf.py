@@ -41,7 +41,14 @@ PLUGIN_PATHS = ['../../Projects/pelican-plugins']
 PLUGINS = ['liquid_tags.tufte', 'pelican-open_graph', 'liquid_tags.img', 'plantuml']
 
 # Markdown Plugins
-MD_EXTENSIONS = ['codehilite(css_class=highlight)','extra']
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        'markdown.extensions.extra': {},
+        'markdown.extensions.meta': {},
+    },
+    'output_format': 'html5',
+}
 
 # Other variables 
 OPEN_GRAPH = True
