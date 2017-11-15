@@ -15,7 +15,8 @@ LOCALE = u'en_US'
 DEFAULT_PAGINATION = 10
 
 # Site customization
-THEME = u'../../Projects/TuftePelican' #Change to needed
+THEME = u'../../Projects/yapeme' #Change to needed
+DEFAULT_OG_IMAGE = "/favicon.png"
 DISPLAY_PAGES_ON_MENU = True
 STATIC_PATHS = ['images', 'extra', 'code']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},
@@ -38,7 +39,7 @@ AUTHOR_FEED_RSS = None
 
 # Include plugins
 PLUGIN_PATHS = ['../../Projects/pelican-plugins']
-PLUGINS = ['liquid_tags.tufte', 'pelican-open_graph', 'liquid_tags.img', 'plantuml']
+PLUGINS = ['i18n_subsites', 'liquid_tags.tufte', 'pelican-open_graph', 'liquid_tags.img', 'plantuml', 'assets', ]
 
 # Markdown Plugins
 MARKDOWN = {
@@ -48,6 +49,10 @@ MARKDOWN = {
         'markdown.extensions.meta': {},
     },
     'output_format': 'html5',
+}
+
+JINJA_ENVIRONMENT = {
+    'extensions': ['jinja2.ext.i18n'],
 }
 
 # Other variables 
