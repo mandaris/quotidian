@@ -18,9 +18,7 @@ DEFAULT_PAGINATION = 10
 THEME = u'../../Projects/TuftePelican' #Change to needed
 DISPLAY_PAGES_ON_MENU = True
 STATIC_PATHS = ['images', 'extra', 'code']
-EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},
-                       'extra/favicon.ico': {'path': 'favicon.ico'},
-                       'extra/favicon.png': {'path': 'favicon.png'},
+EXTRA_PATH_METADATA = {'extra/favicon.png': {'path': 'favicon.png'},
                        'extra/apple-touch-icon.png': {'path': 'apple-touch-icon.png'},}
 
 ## URLs
