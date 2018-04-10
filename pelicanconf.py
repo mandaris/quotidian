@@ -15,7 +15,7 @@ LOCALE = u'en_US'
 DEFAULT_PAGINATION = 10
 
 # Site customization
-THEME = u'../../Projects/TuftePelican' #Change to needed
+THEME = u'../../Projects/Modest' #Change to needed
 DISPLAY_PAGES_ON_MENU = True
 STATIC_PATHS = ['images', 'extra', 'code']
 EXTRA_PATH_METADATA = {'extra/favicon.png': {'path': 'favicon.png'},
