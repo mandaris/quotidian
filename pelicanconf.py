@@ -4,13 +4,14 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Mandaris'
 SITENAME = u'Mandaris Moore'
-SITEURL = 'https://mandarismoore.com'
+SITEURL = 'https://MandarisMoore.com'
+TWITTER_USERNAME = u'mandaris'
 
 PATH = 'content'
 
 TIMEZONE = 'US/Pacific'
 SITE_DESCRIPTION = 'The personal website for Mandaris Moore.'
-DEFAULT_LANG = u'en'
+DEFAULT_LANG = u'en-US'
 LOCALE = u'en_US'
 DEFAULT_PAGINATION = 10
 
@@ -19,7 +20,9 @@ THEME = u'../../Projects/Modest' #Change to needed
 DISPLAY_PAGES_ON_MENU = True
 STATIC_PATHS = ['images', 'extra', 'code']
 EXTRA_PATH_METADATA = {'extra/favicon.png': {'path': 'favicon.png'},
-                       'extra/apple-touch-icon.png': {'path': 'apple-touch-icon.png'},}
+                       'extra/apple-touch-icon.png': {'path': 'apple-touch-icon.png'},
+                       'extra/apple-touch-icon-precomposed.png': {'path': 'apple-touch-icon-precomposed.png'},
+                       'extra/favicon.ico': {'path': 'favicon.ico'},}
 
 ## URLs
 ARTICLE_URL = '{date:%Y}/{date:%m}/{slug}.html'
@@ -36,7 +39,7 @@ AUTHOR_FEED_RSS = None
 
 # Include plugins
 PLUGIN_PATHS = ['../../Projects/pelican-plugins']
-PLUGINS = ['liquid_tags.tufte', 'pelican-open_graph', 'liquid_tags.img', 'plantuml']
+PLUGINS = ['liquid_tags.tufte', 'pelican-open_graph', 'liquid_tags.img']
 
 # Markdown Plugins
 MARKDOWN = {
@@ -44,6 +47,7 @@ MARKDOWN = {
         'markdown.extensions.codehilite': {'css_class': 'highlight'},
         'markdown.extensions.extra': {},
         'markdown.extensions.meta': {},
+        'figureAltCaption':{},
     },
     'output_format': 'html5',
 }
@@ -51,6 +55,7 @@ MARKDOWN = {
 # Other variables 
 OPEN_GRAPH = True
 LOAD_CONTENT_CACHE = False 
+FAVICON_ALT = u'A person in a gear.'
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
