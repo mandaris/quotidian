@@ -6,6 +6,7 @@ AUTHOR = u'Mandaris'
 SITENAME = u'Mandaris Moore'
 SITEURL = 'https://MandarisMoore.com'
 TWITTER_USERNAME = u'mandaris'
+GITHUB_USERNAME = u'mandaris'
 
 PATH = 'content'
 
@@ -47,6 +48,7 @@ MARKDOWN = {
         'markdown.extensions.codehilite': {'css_class': 'highlight'},
         'markdown.extensions.extra': {},
         'markdown.extensions.meta': {},
+        'markdown.extensions.toc': {'baselevel': '3', 'title': 'Table of Contents'},
         'figureAltCaption':{},
     },
     'output_format': 'html5',
