@@ -3,8 +3,14 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Mandaris'
-SITENAME = u'Quotidian Quest'
-SITEURL = 'http://quotidianquest.com'
+SITENAME = u'Mandaris Moore'
+SITEURL = 'https://mandarismoore.com'
+
+TWITTER_USERNAME = 'mandaris'
+GITHUB_USERNAME = 'mandaris'
+WEBMENTION = 'mandarismoore.com'
+#FACEBOOK_PROFILE_URL = 'something'
+MICROBLOG_USERNAME = 'mandaris'
 
 PATH = 'content'
 
@@ -15,7 +21,7 @@ LOCALE = u'en_US'
 DEFAULT_PAGINATION = 10
 
 # Site customization
-THEME = u'../../Projects/TuftePelican' #Change to needed
+THEME = u'../Modest' #Change to needed
 DISPLAY_PAGES_ON_MENU = True
 STATIC_PATHS = ['images', 'extra', 'code']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},
@@ -53,7 +59,8 @@ MARKDOWN = {
 # Other variables 
 OPEN_GRAPH = True
 LOAD_CONTENT_CACHE = False 
+#DISQUS_SITENAME = r'mandarismoore.com'
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
-#DEBUG = True
+RELATIVE_URLS = True
+DEBUG = True
