@@ -65,5 +65,5 @@ LOAD_CONTENT_CACHE = False
 FAVICON_ALT = u'A person in a gear.'
 
 # Uncomment following line if you want document-relative URLs when developing
-RELATIVE_URLS = True
-DEBUG = True
+#RELATIVE_URLS = True
+#DEBUG = True
