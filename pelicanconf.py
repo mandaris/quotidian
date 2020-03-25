@@ -8,7 +8,7 @@ AUTHOR_URL = u'https://mandarismoore.com'
 AUTHOR_IMAGE = u'https://secure.gravatar.com/avatar/03fb367dd4c7aea56f77dfa496db3725'
 
 SITENAME = u'Mandaris Moore'
-SITEURL = 'https://mandaris.github.io'
+SITEURL = 'https://mandarismoore.com'
 
 TWITTER_USERNAME = 'mandaris'
 GITHUB_USERNAME = 'mandaris'
@@ -16,7 +16,8 @@ WEBMENTION = 'mandarismoore.com'
 #FACEBOOK_PROFILE_URL = 'something'
 MICROBLOG_USERNAME = 'mandaris'
 
-PATH = 'content'
+PATH = '../chronicles'
+OUTPUT_PATH = '/var/www/html/mandarismoore.com/public_html'
 
 TIMEZONE = 'US/Pacific'
 SITE_DESCRIPTION = 'The personal website for Mandaris Moore.'
@@ -57,7 +58,7 @@ MARKDOWN = {
         'markdown.extensions.extra': {},
         'markdown.extensions.meta': {},
         'markdown.extensions.toc': {'baselevel': '3', 'title': 'Table of Contents'},
-        'figureAltCaption':{},
+        # 'figureAltCaption':{},
     },
     'output_format': 'html5',
 }
