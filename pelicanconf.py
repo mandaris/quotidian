@@ -3,6 +3,10 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Mandaris'
+AUTHOR_NOTE = u'Mandaris is someone who strives to make himself into a better person'
+AUTHOR_URL = u'https://mandarismoore.com'
+AUTHOR_IMAGE = u'https://secure.gravatar.com/avatar/03fb367dd4c7aea56f77dfa496db3725'
+
 SITENAME = u'Mandaris Moore'
 SITEURL = 'https://mandaris.github.io'
 
