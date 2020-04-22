@@ -16,8 +16,8 @@ WEBMENTION = 'mandarismoore.com'
 #FACEBOOK_PROFILE_URL = 'something'
 MICROBLOG_USERNAME = 'mandaris'
 
-PATH = '../chronicles'
-OUTPUT_PATH = '/var/www/html/mandarismoore.com/public_html'
+PATH = 'content'
+#OUTPUT_PATH = '/var/www/html/mandarismoore.com/public_html'
 
 TIMEZONE = 'US/Pacific'
 SITE_DESCRIPTION = 'The personal website for Mandaris Moore.'
@@ -65,7 +65,7 @@ MARKDOWN = {
 
 # Other variables 
 OPEN_GRAPH = True
-LOAD_CONTENT_CACHE = False 
+#LOAD_CONTENT_CACHE = False 
 #DISQUS_SITENAME = r'mandarismoore.com'
 FAVICON_ALT = u'A person in a gear.'
 
